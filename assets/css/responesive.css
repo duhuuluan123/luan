@@ -1,0 +1,108 @@
+
+/* pc */
+
+@media (min-width: 64em) {
+
+  }
+
+
+  /* Tablet >=740px <1024px*/
+
+  @media  (max-width:63.9375em) 
+  {
+    
+    .contact-infor p {
+        line-height: 2;
+    }
+
+    .contact-form .form-control {
+        font-size: 16px;
+        padding: 14px 8px;
+    }
+
+    #footer .social-list {
+        font-size: 20px;
+    }
+
+    #footer .social-list i {
+        margin: 0 16px;
+    }
+
+    #footer .coppyright {
+        font-size: 20px;
+        padding: 8px 0;
+        
+    }
+  }
+
+  /* Mobile */
+
+  @media only screen and (max-width: 46.1875em) {
+
+    #header {
+        overflow: hidden;
+    }
+
+    .nav {
+        display: block;
+    }
+
+    
+    .nav li {
+        display: block;
+    }
+    
+    .nav > li:first-child {
+        display: inline-block;
+    }
+    .nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+
+    .nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #content .member-item {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-img {
+        width: 60%;
+    }
+
+    /* .contact-section .send-btn {
+        width: 100%;
+        padding: 17px 0;
+    } */
+
+    .contact-form {
+        margin-top: 16px;
+    }
+
+    /* cac class dung chung */
+
+    .s-full-width {
+        width: 100%;
+    }
+
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+  }
